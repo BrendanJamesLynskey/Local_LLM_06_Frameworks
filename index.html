@@ -6,7 +6,7 @@
     <title>Local LLM Hosting 06 — Framework Shootout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Geist+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-primary: #1c1815;
@@ -18,9 +18,9 @@
             --accent-dim: #aabd5944;
             --accent-glow: #aabd5933;
             --border: #3a322b;
-            --font-display: 'Space Grotesk', sans-serif;
-            --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-            --font-body: 'Inter', sans-serif;
+            --font-display: 'Bricolage Grotesque', sans-serif;
+            --font-mono: 'Geist Mono', 'Geist Mono', monospace;
+            --font-body: 'Instrument Sans', sans-serif;
             --max-width: 900px;
         }
 
@@ -853,9 +853,9 @@
                 .bar { fill: rgba(170,189,89,0.35); stroke: #aabd59; }
                 .bar2{ fill: rgba(215,187,223,0.3); stroke: #d7bbdf; }
                 .axis{ stroke: #3a322b; }
-                .lbl { fill: #a2978b; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-                .val { fill: #aabd59; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; }
-                .h { fill: #efe8dc; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; }
+                .lbl { fill: #a2978b; font-family: 'Geist Mono', monospace; font-size: 11px; }
+                .val { fill: #aabd59; font-family: 'Geist Mono', monospace; font-size: 11px; font-weight: 700; }
+                .h { fill: #efe8dc; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 13px; }
             </style>
             <text x="10" y="18" class="h">Aggregate throughput @ 64 concurrent requests (tok/s)</text>
             <line x1="140" y1="30" x2="140" y2="240" class="axis"/>
@@ -889,9 +889,9 @@
             <style>
                 .barL { fill: rgba(188,219,212,0.35); stroke: #bcdbd4; }
                 .axis{ stroke: #3a322b; }
-                .lbl { fill: #a2978b; font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-                .val { fill: #bcdbd4; font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; }
-                .h { fill: #efe8dc; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 13px; }
+                .lbl { fill: #a2978b; font-family: 'Geist Mono', monospace; font-size: 11px; }
+                .val { fill: #bcdbd4; font-family: 'Geist Mono', monospace; font-size: 11px; font-weight: 700; }
+                .h { fill: #efe8dc; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 13px; }
             </style>
             <text x="10" y="18" class="h">p50 TTFT @ single user (ms; lower is better)</text>
             <line x1="140" y1="30" x2="140" y2="160" class="axis"/>
